@@ -1,0 +1,1 @@
+avsp.InsertText("%d)++" % avsp.GetFrameNumber(), None)

@@ -1,0 +1,1 @@
+avsp.InsertText("%d)++Trim(%d," % (avsp.GetFrameNumber()-1, avsp.GetFrameNumber()), None)
