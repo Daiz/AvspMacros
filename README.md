@@ -6,7 +6,7 @@ This repository contains macros I've written for AvsP(mod), because why not. Des
 
 QuickTrim is a collection of three macros intended to make writing trims faster. You should bind the macros to hotkeys like Ctrl+F1/F2/F3 or whatever (I personally use macro keys on my keyboard). Create a new line, make it a comment with `#` in the beginning and make sure the cursor is located after it. Then, open the video and start going through it. After that...
 
-- Hit Start when you want to open a trim and the macro will write `Trim(CURRENT_FRAME,`
+- Hit Begin when you want to open a trim and the macro will write `Trim(CURRENT_FRAME,`
 - Hit Mid and the macro will write `PREVIOUS_FRAME)++Trim(CURRENT_FRAME,`
 - Hit Stop and the macro will write `CURRENT_FRAME)++`
 
